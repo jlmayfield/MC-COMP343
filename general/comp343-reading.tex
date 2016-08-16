@@ -1,20 +1,15 @@
-\documentclass[10pt]{article}
+\documentclass[]{tufte-handout}
 \usepackage{amsmath}
-\usepackage{setspace}
 \usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{bibentry}
-\nobibliography*
 
-\setlength{\textheight}{9in} \setlength{\topmargin}{-.5in}
-\setlength{\textwidth}{6.5in} \setlength{\oddsidemargin}{0in}
-\setlength{\evensidemargin}{0in}
-
-\title{COMP 343 \\ Reading Assignments}
+\title{COMP 343: Reading Assignments}
 \author{  }
 \date{Fall 2016}
 
 \begin{document}
+\nobibliography{comp343.bib}
 \maketitle
 
 \begin{abstract}
@@ -33,11 +28,27 @@ For each reading assignment you will turn in a one two two page report containin
   \item \textit{A Summary}: \newline After the second pass you should be able to provide a brief, one to two paragraph summary of the paper's content \textit{in your own words}.
 \end{itemize}
 
+\section{Papers}
+
+You'll be reading the following papers in the following order. For due dates see the syllabus.
+
+\begin{enumerate}
+  \item \bibentry{Turing}
+  \item \bibentry{Horvitz}
+  \item \bibentry{KorfSchultze}
+  \item \bibentry{MintonEtAl}
+  \item \bibentry{FrankEtAl}
+  \item \bibentry{Pearl}
+  \item \bibentry{SilverEtAl}
+\end{enumerate}
+
+\newpage
+
 \section{Grading}
 
-Reading reports are graded on a three point scale. Scores will be averaged together and
-the final reading assignment grade is determined based on the scale below.
+Reading reports are graded on a three point scale. To earn a three you must clearly identify and report on the paper's contributions and context.  Additionally, the summary must hit upon the main points and evidence provided in the paper using your own words.  A score of two means critical parts of the paper weren't addressed or the overall report seems to restate elements of the paper rather than provide an external summary.  A score of one typically means the report either missed the point of the paper or  seems to just be a rehash of the paper, borrowing too heavily from the authors' words and not written in your own voice. Scores will be averaged together and the final reading assignment grade is determined based on the scale given in table~\ref{scores}.
 
+\begin{table}[!htbp]
 \begin{center}
 \begin{small}
 \begin{tabular}{ll}
@@ -55,21 +66,9 @@ Assignment Avg. (Min) & Letter Grade \\ \toprule
 \end{tabular}
 \end{small}
 \end{center}
+\caption{Grading Scale for Reading Reports}
+\label{scores}
+\end{table}
 
-\section{Papers}
-
-You'll be reading the following papers in the following order. For due dates see the syllabus. 
-
-\begin{enumerate}
-  \item \bibentry{Turing}
-  \item \bibentry{Horvitz}
-  \item \bibentry{KorfSchultze}
-  \item \bibentry{MintonEtAl}
-  \item \bibentry{FrankEtAl}
-  \item \bibentry{Pearl}
-  \item \bibentry{SilverEtAl}
-\end{enumerate}
-
-\bibliography{comp343.bib}
 \bibliographystyle{acm}
 \end{document}
