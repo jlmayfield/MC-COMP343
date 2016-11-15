@@ -1,0 +1,53 @@
+\begin{thebibliography}{1}
+
+\bibitem{FrankEtAl}
+{\sc Frank, I., Basin, D., and Matsubara, H.}
+\newblock Finding optimal strategies for imperfect information games.
+\newblock In {\em Proceedings of the Fifteenth National/Tenth Conference on
+  Artificial Intelligence/Innovative Applications of Artificial Intelligence\/}
+  (Menlo Park, CA, USA, 1998), AAAI '98/IAAI '98, American Association for
+  Artificial Intelligence, pp.~500--507.
+
+\bibitem{Horvitz}
+{\sc Horvitz, E.~J., Breese, J.~S., and Henrion, M.}
+\newblock Decision theory in expert systems and artificial intelligence.
+\newblock {\em Int. J. Approx. Reasoning 2}, 3 (July 1988), 247--302.
+
+\bibitem{Keshav}
+{\sc Keshav, S.}
+\newblock How to read a paper.
+\newblock {\em SIGCOMM Comput. Commun. Rev. 37}, 3 (July 2007), 83--84.
+
+\bibitem{KorfSchultze}
+{\sc Korf, R.~E., and Schultze, P.}
+\newblock Large-scale parallel breadth-first search.
+\newblock In {\em Proceedings of the 20th National Conference on Artificial
+  Intelligence - Volume 3\/} (2005), AAAI'05, AAAI Press, pp.~1380--1385.
+
+\bibitem{Pearl}
+{\sc Pearl, J.}
+\newblock Reverend bayes on inference engines: A distributed hierarchical
+  approach.
+\newblock In {\em Proceedings of the Second AAAI Conference on Artificial
+  Intelligence\/} (1982), AAAI'82, AAAI Press, pp.~133--136.
+
+\bibitem{Selman:1992}
+{\sc Selman, B., Levesque, H., and Mitchell, D.}
+\newblock A new method for solving hard satisfiability problems.
+\newblock In {\em Proceedings of the Tenth National Conference on Artificial
+  Intelligence\/} (1992), AAAI'92, AAAI Press, pp.~440--446.
+
+\bibitem{SilverEtAl}
+{\sc Silver, D., Huang, A., Maddison, C.~J., Guez, A., Sifre, L., van~den
+  Driessche, G., Schrittwieser, J., Antonoglou, I., Panneershelvam, V.,
+  Lanctot, M., Dieleman, S., Grewe, D., Nham, J., Kalchbrenner, N., Sutskever,
+  I., Lillicrap, T., Leach, M., Kavukcuoglu, K., Graepel, T., and Hassabis, D.}
+\newblock Mastering the game of go with deep neural networks and tree search.
+\newblock {\em Nature 529\/} (2016), 484--503.
+
+\bibitem{Turing}
+{\sc Turing, A.~M.}
+\newblock Computing machinery and intelligence.
+\newblock {\em Mind 59}, 236 (1950), 433--460.
+
+\end{thebibliography}
