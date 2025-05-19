@@ -10,7 +10,7 @@
 
 \title{Syllabus \\ COMP 343 Artificial Intelligence}
 \author{}
-\date{Spring 2023}
+\date{Spring 2025}
 
 \begin{document}
 \maketitle
@@ -25,7 +25,7 @@
 \item \textit{Phone: } 309-457-2200 % chktex 8
 \item \textit{Email: } lmayfield \textit{at} monmouthcollege \textit{dot} edu
 \item \textit{Website: } \url{https://jlmayfield.github.io/}
-\item \textit{Office Hours: } \textbf{By Appointment.} MWF 1--2pm. Tu 10--11am.
+\item \textit{Office Hours: } MWF 10–11am. TuTh 1–2pm. \textbf{By Appointment.}
 \end{itemize}
 \item \textbf{Course Website: } \url{https://jlmayfield.github.io/teaching/MC-COMP343}
 \item \textbf{Credits: } 1 course credit
@@ -36,28 +36,58 @@
 %insert text #1
 
 \noindent Stuart Russell and Peter Norvig. 2021. \textit{Artificial Intelligence: A Modern Approach (4th ed.)}. Prentice Hall Press, Upper Saddle River, NJ, USA\@.
+\newline
 
+\noindent A.M. Turing. Computing Machinery and Intelligence. \textit{Mind}. 49. 433--460. 1950. 
+\newline
+
+\noindent Claude E. Shannon. Programming a Computer for Playing Chess. \textit{Philosophical Magazine.} Ser. 7, Vol. 41. No. 314. 1950. 
+\newline
+
+\noindent Murray Campbell, A. Joseph Hoane Jr., Feng-hsiung Hsu. Deep Blue. \textit{Artificial Intelligence}. 134. 57--83. 2002.
+\newline
+
+\noindent Jonathan Schaeffer, et al. Checkers Is Solved. \textit{Science}. 317. 1518. 2007.
+\newline
+
+\noindent David Silver, et al. Mastering the game of Go with deep neural networks and tree search. \textit{Nature}. Vol. 529. 2016. 
+\newline
+
+\noindent David Silver, et al. Mastering the game of Go without human knowledge. \textit{Nature}. Vol. 550. 2017.
+\newline
+
+\noindent Julian Schrittwieser, et al. Mastering Atari, Go, chess and shogi by planning with a learned model. \textit{Nature.} Vol. 588. 2020. 
+
+\subsection*{Supplementary Material}
+
+\noindent Nate Silver. \textit{The Signal and the Noise: Why So Many Predictions Fail - but Some Don't}. Penguin Press. 2012. 
+\newline
+
+\noindent Samuel Hansen. \textit{Chinook}. Relatively Prime. ACMEScience. 2012. 
+\newline
+
+\noindent Frank Marshal. \textit{The Man vs. The Machine}. FiveThirtyEight and ESPN Films. 2014. 
+\newline
+
+\noindent Greg Kohs. \textit{AlphaGo}. Moxie Pictures and Reel as Dirt. 2017. 
+
+
+ 
 \section{Description, Content, and Goals}
 
-In this course we undertake a rigorous study of Artificial Intelligence (AI) in which we
-operationalize the task of building an \textit{Artificially Intelligent Agent}. Our
-ultimate goal is to know what it means to pursue an AI solution to a problem, how
-to pose that problem and its solution in an objective, measurable fashion, and
-survey the classic techniques used in AI past and present.
+In this course we undertake a rigorous study of Artificial Intelligence (AI) in which we operationalize the task of building an \textit{Artificially Intelligent Agent}. Our ultimate goal is to know what it means to pursue an AI solution to a problem, how to pose that problem and its solution in an objective, measurable fashion, and survey the classic techniques used in AI past and present. 
 
-This course will sample from chapters from parts I, II, III, and IV of the text. Topics covered include:
+This iteration of COMP343 will focus on a study of the progression of AI developed for playing games like checkers, chess, and go. Primary sources (shown above) will be explored and the following chapters used to dive deeper into the ideas exposed by those sources. Topics covered include, but might not be limited to:
 \begin{itemize}
 \item AI History (Chapter 1) %paper
 \item The Intelligent Agent Approach (Chapter 2) %paper
 \item Problem-Solving as Search (Chapter 3) %program
 \item Adversarial Search (Chapter 5) %paper
-\item Constraint Satisfaction Problems (Chapter 6)
-\item Quantifying Uncertainty (Chapter 12)
-\item Probabilistic Reasoning (Chapter 13) %paper
-\item Probabilistic Reasoning over Time (Chapter 14)
-\item Making Complex Decisions (Chapter 17) %program
-%\item Learning Probabilistic Models (Chapter 20) %paper
-%\item Reinforcement Learning (Chapter 21) %program
+\item Local Search and Optimization Problems (Chapter 4.1)
+\item Machine Learning (Chapter 19)
+\item Deep Learning (Chapter 21)
+\item Reinforcement Learning (Chapter 22)
+\item Making Complex Decisions (Chapter 17) 
 \end{itemize}
 Other sections of the text will be used as needed and as time permits.
 
@@ -68,122 +98,153 @@ Other sections of the text will be used as needed and as time permits.
 \begin{center}
   \begin{tabular}{ll}
     \underline{Assignment Type} & \underline{Number of Assignments} \\
-    Problem Sets & 7--9 \\
-    Exams & 5 \\
-    Programming Projects & 2--3 \\
-    Show-and-Tell Presentation & 1 \\
-    Self-Evaluations & 5 \\
+    Homework Problem Sets & 11--13 \\
+    Exams & 4--5 \\
+    Programming Projects & 1--6 \\
+    Research Survey Project & 1 \\
+    Self-Evaluations & 4--5 \\
   \end{tabular}
 \end{center}
 
 \subsection*{Problem Sets}
 
-You can expect to do a set of problems from each of the chapters covered by the course. We'll work some problems as a class, some in groups, and some you'll need to do on your own.
+You can expect to do one or more sets of problems from each of the chapters covered by the course. We'll work some problems as a class, some in groups, and some you'll need to do on your own.
 
 \subsection*{Exams}
 
-We'll wrap up most chapters with an exam. Most will be in-class exams. Some will be open-book. Some might even be take home.
+We'll wrap up most chapters with an exam. Most will be in-class exams. Some will be open-book. Some might even be take home. 
 
 \subsection*{Programming Projects}
 
-This course wouldn't be much fun if we didn't take some time to build some actual AI.  So, a few times during the semester we'll put some ideas into practice and do an AI programming project to wrap up a chapter rather than an exam.
+This course wouldn't be much fun if we didn't take some time to build some actual AI.  So, a few times during the semester we'll put some ideas into practice and do an AI programming project. 
 
-\subsection*{Show-and-Tell Presentation}
+\subsection*{Research Survey Project}
 
-We'll only just scratch the surface of AI. You'll have the opportunity towards the end of the semester to survey something current or cool from the realm of AI that we couldn't get to as a class. You'll then present your findings to the class.
+In lieu a final exam you'll do a research project where you trace a tread of research across 4--5 papers, summarize those papers, and then propose a course of study, from our textbook, for better understanding, duplicating, and continuing that thread of research. More details about this project will come as the course progresses. 
 
-\subsection*{Self-Evaluation \& Reflections}
+\subsection*{Portfolio Review \& Self-Evaluation}
 
-Self-reflection and self-evaluation is a critical component of learning and vital to a growth mindset. You'll write a series of self-evaluation letters to me through out the course of the semester. In these letters you'll evaluate the state of your learning, present evidence of successes, examples of ongoing challenges, and address how well you believe you're meeting course and personal goals and expectations. Letters will be one to two pages in length and include a report card maintained by the student. As you'll read below, these letters and the conversations we have as a result of the letters will, by and large, determine your grade in the course.
+Self-reflection and self-evaluation is a critical component of learning and vital to a growth mindset. We will keep a portfolio of the work you do throughout the semester. Much of this will be done automatically by our assignment management and version control software. At regular intervals throughout the semester you will meet, one-on-one, with me to \textit{present your portfolio}, review items from your portfolio that best gauge how well you're doing at meeting the course goals and expectations, and discuss how that success maps to a letter grade.  
+
 
 
 \section{Ungrading \& Final Grades}
 
-This class is largely ungraded. That means your assignments will not be graded for points and your final grade is not determined by a point-based, numerical grading system. You will get feedback on your work but you will see points on nothing. You don't earn points for doing work or getting something correct nor do you lose points for getting something wrong. We're here to learn. Doing the work is how we do that and getting things wrong some or most of the time is part of learning.
+This class is largely ungraded. That means your assignments will not be graded for points and your final grade
+is not determined by a point-based, numerical grading system. You will get feedback on your work but you will
+see points on nothing. You don't earn points for doing work or getting something correct nor do you lose points
+for getting something wrong. We're here to learn. Doing the work is how we do that and getting things wrong
+some or most of the time is part of learning.
 
 \subsection{Self-Evaluation \& Final Course Grades}
 
-Throughout the semester you'll be asked to engage in regular self-evaluation. This process is described in detail in additional documentation. Part of the process includes you self-assigning a course grade based on your self-evaluation. Your self-evaluation and self-assigned grade are then discussed with me in a one-on-one meeting during which we'll agree upon your current grade. The key here is that \textit{your self-evaluation and self-assigned grade begins the conversation, not my assigned points.}
+Throughout the semester you'll be asked to engage in regular self-evaluation. This process is described in
+detail in additional documentation. Part of the process includes you self-assigning a course grade based on
+your self-evaluation. Your self-evaluation and self-assigned grade are then discussed with me in a one-on-one
+meeting during which we'll agree upon your current grade. The key here is that \textit{your self-evaluation
+and self-assigned grade begins the conversation, not my assigned points.}
 
-Below are some general rules of thumb we'll try to stick to when talking about grades. They relate grades to course competency expectations and Monmouth College policy.
+Below are some general rules of thumb we'll try to stick to when talking about grades. They relate grades to
+course competency expectations and Monmouth College policy.
 \begin{itemize}
   \item \textbf{A} - Exceeding course expectations.
   \item \textbf{B} - Meeting and occasionally exceeding course expectations.
-  \item \textbf{C} - Meeting course expectations.
-  \item \textbf{C-} - Mostly meeting course expectations. \textit{This is the minium grade that counts towards the major.}
+  \item \textbf{C} - Meeting course expectations. \textit{This is the minimum grade required to continue on to COMP152. So, a C means you can be successful in a class that builds upon the things learned in this class.}
+  \item \textbf{C-} - Mostly meeting course expectations. \textit{This is the minium grade that counts towards a major.}
   \item \textbf{D} - Occasionally meeting course expectations, but mostly not. \textit{Grades in the D range earn credit towards graduation but fall below GPA requirements.}
   \item \textbf{F} - Did not meet course expectations.
 \end{itemize}
 
-My hope is that the self-evaluation and self-directed grading process provides a lot of flexibility in terms of how you can achieve success in this course and meet your grade goals. If you ever have questions or concerns about self-evaluations and grades, then I'm more more than willing to discuss them with you at any time.
+My hope is that the self-evaluation and self-directed grading process provides a lot of flexibility in terms
+of how you can achieve success in this course and meet your grade goals. If you ever have questions or concerns
+about self-evaluations and grades, then I'm more more than willing to discuss them with you at any time.
 
 \subsubsection{Participation, Attendance, \& Timely Work}
 
-I do not have strict attendance and deadline policies, but I do have clear expectations. These expectations that are baked into the disposition attribute of the course competencies. This attribute includes things like being \textit{professional, responsible, responsive, and self-directed.}
+I do not have strict attendance and deadline policies, per se, but I do have clear expectations. These
+expectations are baked into the dispositional attribute of the course competencies. This attribute
+includes things like being \textit{professional, responsible, responsive, and self-directed.}
 
-As far as I'm concerned, signing up for this class means you agree to coming to class and lab, being on time for class and lab, doing assigned work in a timely manner, and generally participating in all the class has to offer.  That being said, life happens and people have different priorities.  You might need to miss class or extend a deadline.  So long as you communicate with me about it, as a professional would with a co-worker, then we won't have a problem. If you simply skip class without warning, always show up late, or fail to do assigned work in a timely manner, then I expect that those failures to meet dispositional expectations to be reflected in your self-evaluation.
+As far as I'm concerned, signing up for this class means you agree to coming to class and lab,
+being on time for class and lab, doing assigned work and submitting it on time, and generally participating
+in all the class has to offer.  That being said, life happens and people have different priorities.
+You might need to miss class or extend a deadline.  So long as you communicate with me about it, as a
+professional would with a co-worker, then we won't have a problem. If you simply skip class without
+warning, always show up late, or regularly fail to do assigned work in a timely manner, then I expect that
+those failures to meet dispositional expectations to be reflected in your self-evaluation.
 
-There is one exception to my ``no grade-based policy'' on assignments and deadlines and that is the self-evaluations and reflections. The self-evaluation process is critical to this class and in no way optional. \textbf{If you fail to submit a required self-evaluation and reflection or attend the post-submission meeting, then I reserve to give you a final grade of D or lower for the course.} You'll find I can be pretty relaxed about a lot of other assignments and deadlines, but I draw the line at the self-evaluation process.
+There is one exception to my ``no grade-based policy'' on assignments and deadlines and that is the
+self-evaluations and reflections. The self-evaluation process is critical to this class and in no way
+optional. \textbf{If you fail attend the portfolio review meetings or always show up completely un-prepared
+then I reserve to give you a final grade of D or lower for the course.} You'll find I can be pretty relaxed
+about a lot of other assignments and deadlines, but I draw the line at the self-evaluation process.
 
 
-\subsubsection*{Academic Honesty}
+\subsection{Academic Honesty}
 
-You don't learn by trying to pass off someone's work as your own. In an ungraded class it makes even less sense to cheat and steal work from somewhere else.  There are no points, you gain nothing from it and you certainly will learn nothing from it. In this ungraded class, academic dishonesty is still not tolerated.
+We believe that academic honesty is of the utmost importance for the maintenance and growth of our intellectual community. At Monmouth College, the faculty and staff strive to create positive and transformational learning experiences. One step in our mission to provide excellent teaching involves our emphasis on the promotion of free inquiry, original thinking and the holistic development of our students. Monmouth College strives to offer a learning environment which stresses a vigorous work ethic and stringent moral codes of behavior.
 
-From the Monmouth College Academic Honesty Policy:
-\begin{quote}
-  ``We view academic dishonesty as a threat to the integrity and intellectual mission of our institution. Any breach of the academic honesty policy - either intentionally or unintentionally - will be taken seriously and may result not only in failure in the course, but in suspension or expulsion from the college. It is each student’s responsibility to read, understand and comply with the general academic honesty policy at Monmouth College, as defined here in the Scots Guide, and to the specific guidelines for each course, as elaborated on the professor’s syllabus.''
+We believe that one of our core commitments is the fostering of personal and academic integrity. Our students are encouraged to think of the campus as an educational community with ties to the local, national and global society. Honesty in one’s academic work is of the utmost importance for the maintenance and growth of the individual and of our intellectual community.
 
-  ``The following areas are examples of violations of the academic honesty policy:
-  \begin{enumerate}
+We therefore require all our students to contribute to this community of learners and to make a vigorous commitment to academic honesty. We view academic dishonesty as a threat to the integrity and intellectual mission of our institution. Any breach of the academic honesty policy—either intentionally or unintentionally—will be taken seriously and may result not only in failure in the course, but in suspension or expulsion from the College.
+
+It is each student's responsibility to read, understand and comply with the general academic honesty policy at Monmouth College, as defined here in the Scots Guide, and to the specific guidelines for each course, as elaborated on the professor's syllabus.
+
+The following areas are examples of violations of the academic honesty policy:
+\begin{enumerate}
   \item Cheating on tests, labs, etc;
   \item Plagiarism, i.e., using the words, ideas, writing, or work of another without giving appropriate credit;
   \item Improper collaboration between students, i.e., not doing one’s own work on outside assignments specified as group projects by the instructor;
-  \item Submitting work previously submitted in another course, without previous authorization by the instructor.''
-  \end{enumerate}
+  \item Submitting work previously submitted in another course, without previous authorization by the instructor.  
+\end{enumerate}
 
-  ``Please note that this list is not intended to be exhaustive.''
-\end{quote}
+Please note that this list is not intended to be exhaustive.
 
-The complete Monmouth College Academic Honesty Policy can be found on the College web page by clicking on ``Student Life'' then on ``Scot’s Guide'' in the navigation bar to the left, then ``Academic Regulations'' in the navigation bar at the left.  Or you can visit the web page directly by typing in this URL: \url{https://ou.monmouthcollege.edu/life/residence-life/scots-guide/academic-regulations.aspx}
+The complete Monmouth College Academic Honesty Policy can be found on the College web page. \url{https://www.monmouthcollege.edu/offices/student-affairs/academic-regulations/}
 
-In this course, any violation of the academic honesty policy will have varying consequences depending on the severity of the infraction as judged by the instructor.  Expect violations to be reported to the appropriate Dean and to weaken your case for higher grades at the end of the course. Severe violations can result in an F for the course and expulsion from the course. Do your own work. If you even think something you're doing could be construed as academically dishonest, then ask for guidance and clarification first.
+In this course, any violation of the academic honesty policy will have varying consequences depending on the severity of the infraction as judged by the instructor. Minimally, a violation will result in treating the assignment in question as if it were never completed. Additionally, the student's course grade may be lowered by one letter grade. In severe cases, the student will be assigned a course grade of ``F'' and dismissed from the class. All cases of academic dishonesty will be reported to the Associate Dean who may decide to recommend further action to the Admissions and Academic Status Committee, including suspension or dismissal. It is assumed that students will educate themselves regarding what is considered to be academic dishonesty, so excuses or claims of ignorance will not mitigate the consequences of any violations.
 
+\section{Academic Support and Accessibility}
 
-\section{Academic Support \& Accessibility}
+\subsection*{Academic Support}
 
-\subsection*{Support Services}
-The Academic Support and Accessibility Services Office offers free resources to assist Monmouth College students with their academic success. Programs include Supplemental Instruction for difficult classes, Drop-In and appointment tutoring, and individual Academic Coaching. Our office is here to help all students excel academically, since every student can work toward better grades, practice stronger study skills, and manage their time better. Please email academicsupport@monmouthcollege.edu for assistance.
+The Academic Support Office offers free resources to assist Monmouth College students with their academic success. Programs include Supplemental Instruction for classes, Drop-In and appointment tutoring, and individual Academic Coaching. Our Office is here to help all students excel academically, since every student can work toward better grades, practice stronger study skills, and manage their time better. Please email academicsupport@monmouthcollege.edu for assistance.
 
-\subsection*{Accessibility Services}
-If you have a disability and/or medical/mental health condition or had academic accommodations in high school or another college, you may be eligible for academic accommodations at Monmouth College under the Americans with Disabilities Act (ADA). Monmouth College is committed to equal educational access. To discuss any of the services offered, please call or meet with Jennifer Sanberg, Associate Director of Academic Support and Accessibility Services. The ASAS office is located on the first floor of the Hewes Library, opposite Einstein’s Bros Bagel. They can be reached at 309-457-2257 or via email at: academicsupport@monmouthcollege.edu
+\subsection*{Accessibility}
+
+If you need course adaptions or accommodations because of a disability please make an appointment with the Accessibility Services Office (ASO) as soon as possible. Email: access@monmouthcollege.edu
+
+Phone: 309-457-2257
+
+The accessibility of this course for every learner is important to me. If at any time you experience a barrier to learning, please bring it to my attention and I will do my best to address it.
+
+At any point in the semester, if you encounter difficulty with the course or feel you could be performing at a higher level, consult with me.
 
 \subsection{Calendar}
 
 \textit{This calendar aspirational and is subject to change based on the circumstances of the course. A more detailed, regularly updated calendar can be found on the course website. }
 
 \begin{center}
-\begin{tabular}{lllll}
-\underline{Week} & \underline{Dates} & \underline{Assignments Due} & \underline{Chapter(s)} & \underline{Notes} \\
-1 & 1/9 --- 1/13  & Reflection 1. & 1,2 & \\
-2 & 1/16 --- 1/20 &  & 1,2 & No Class Monday. \\
-3 & 1/23 --- 1/27 & PS 1. PS 2.  & 2,3 & Take-Home Exam 1. \\
-4 & 1/30 --- 2/3  & PS 3  &  3,5 & \\
-5 & 2/6 --- 2/10 & Program 1. Reflection 2. & 5 & \\
-6 & 2/13 --- 2/17 & PS4. Exam 2. & 6 & \\
-7 & 2/20 --- 2/24 & PS5.  &  6 &\\
-8 & 2/27 --- 3/2 & Exam 3. Reflection 3. & & No Class Friday (Spring Break).  \\
-  &  3/6 -- 3/10 & & & Spring Break. \\
-9 & 3/13 --- 3/17  & & 12 &  \\
-10 & 3/20 --- 3/24  & PS6 & 12,13 & \\
-11 & 3/27 --- 3/31 & Exam 4. & 13 & \\
-12 & 4/3 --- 4/6 &  PS7. Reflection 4. & 13,14 & No Class Friday (Easter).  \\
-13 & 4/11 --- 4/14 & Exam 5. & 14 & No Class nor Lab Monday (Easter). \\
-14 & 4/17 --- 4/21 & PS8. Program 2. & 14,17 & \\
-15 & 4/24 --- 4/28 & PS9. & 17 & \\
-16 & 5/1 --- 5/5 & Exam 6. Reflection 5. & & (Reading Day Th. No Class Fr.) \\
-   & 5/8 --- 5/10 & Show-and-Tell & & Final Exam Period Tu 5/9 8--11am \\
-\end{tabular}
-\end{center}
+  \begin{tabular}{lllp{2in}l}
+  \underline{Week} & \underline{Dates} & \underline{Notes} & \underline{Assignments Due} & \underline{Chapter(s)}\\
+  1 & 1/21 --- 1/24 & & &  1.1,1.4--1.5, Turing \\
+  2 & 1/27 --- 1/30 &  & PS 1. & 2.1--2.4.2 \\
+  3 & 2/3 --- 2/7 & &  PS 2. Exam 1. & 3.1-3.2 \\
+  4 & 2/10 --- 2/14 &  & PS 3. PS 4. &  3.3-3.4\\
+  5 & 2/17 --- 2/21 & & PS 5. & 3.5--3.6 \\
+  6 & 2/24 --- 2/28 & & PS 6. Exam 2. Program 1.  &  Shannon. Silver. 5.1--5.2.2\\
+  7 & 3/3 --- 3/7 &  & PS 7. Exam 3.  & 5.2.3--5.3 \\
+   & 3/10 --- 3/14 & SPRING BREAK & &  \\
+  8 & 3/17 --- 3/21 &  & PS 8.  & Schaeffer. Campbell, et al. \\
+  9 & 3/24 --- 3/28 & & PS 9. Program 2. & 5.4, 4.1.1\\
+  10 & 3/31 --- 4/4 & & PS 10. Exam 4. &  19 \\
+  11 & 4/7 --- 4/11 &  & Program 3.  & 19 \\
+  12 & 4/14 --- 4/18 & EASTER BREAK (F) & PS 11. Exam 5. & 22 \\
+  13 & 4/21 --- 4/25 & EASTER BREAK (M) &  & 22  \\
+  14 & 4/28 --- 5/2 & SCHOLAR'S DAY (Tu). & PS 12. Program 4. & 21, 17 \\
+  15 & 5/5 --- 5/9 & READING DAY (Th). & PS 13. Program 5. & 21, 17 \\
+   & 5/13 &   & \textbf{Presentations. 8:00-11:00am} & 
+  \end{tabular}
+  \end{center}
 
 \end{document}
